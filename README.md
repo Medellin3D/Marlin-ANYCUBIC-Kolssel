@@ -1,3 +1,35 @@
+```py
+> 5:53:28 PM: N38 M503 *62
+< 5:53:28 PM: echo:Steps per unit:
+< 5:53:28 PM: echo:  M92 X80.00 Y80.00 Z80.00 E96.00
+< 5:53:28 PM: echo:Maximum feedrates (mm/s):
+< 5:53:28 PM: echo:  M203 X200.00 Y200.00 Z200.00 E200.00
+< 5:53:28 PM: echo:Maximum Acceleration (mm/s2):
+< 5:53:28 PM: echo:  M201 X3000 Y3000 Z3000 E3000
+< 5:53:28 PM: echo:Accelerations: P=printing, R=retract and T=travel
+< 5:53:29 PM: echo:  M204 P2000.00 R2000.00 T2000.00
+< 5:53:29 PM: echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+< 5:53:29 PM: echo:  M205 S0.00 T0.00 B20000 X5.00 Y5.00 Z5.00 E5.00
+< 5:53:29 PM: echo:Home offset (mm)
+< 5:53:29 PM: echo:  M206 X0.00 Y0.00 Z0.00
+< 5:53:29 PM: echo:Endstop adjustment (mm):
+< 5:53:29 PM: echo:  M666 X0.00 Y0.00 Z0.00
+< 5:53:29 PM: echo:Delta settings: L=diagonal_rod, R=radius, S=segments_per_second, ABC=diagonal_rod_trim_tower_[123]
+< 5:53:29 PM: echo:  M665 L218.00 R98.40 S100.00 A0.00 B0.00 C0.00
+< 5:53:29 PM: echo:Material heatup parameters:
+< 5:53:29 PM: echo:  M145 S0 H180 B70 F255
+< 5:53:29 PM:   M145 S1 H240 B100 F255
+< 5:53:29 PM: echo:PID settings:
+< 5:53:29 PM: echo:  M301 P14.06 I0.81 D60.84
+< 5:53:29 PM: echo:Filament settings: Disabled
+< 5:53:29 PM: echo:  M200 D3.00
+< 5:53:29 PM: echo:  M200 D0
+< 5:53:29 PM: echo:Z-Probe Offset (mm):
+< 5:53:29 PM: echo:  M851 Z-3.50
+
+```
+
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
