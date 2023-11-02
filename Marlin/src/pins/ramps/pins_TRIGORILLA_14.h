@@ -42,7 +42,7 @@
 // PWM FETS
 //
 #define MOSFET_B_PIN                          45  // HEATER1
-
+#define HEATER_BED_PIN          MOSFET_B_PIN  // HEATER1
 //
 // Heaters / Fans
 //
